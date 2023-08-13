@@ -1,0 +1,53 @@
+#recipes-list-container{
+  width: 100%;
+  background-image: url('../assets/backgroundTwo.jpeg');
+  background-size: cover;
+}
+
+.recipes-container{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: 100vh; permet de couvrir la page */
+}
+
+.pagination {
+    margin-top: 1em;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.pagination button {
+    height: 3em;
+    width: 3em;
+    background-color: rgb(29, 180, 203);
+    /* opacity: 0.8; */
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid rgb(29, 180, 203);
+    margin-right: 0.7em;
+    border-radius: 5px;
+}
+
+.pagination button.active{
+    color: rgb(29, 180, 203);
+    background-color: white;
+    font-weight: extra-bold;
+}
+
+/* Règles de style pour les petits écrans */
+@media only screen and (max-width: 768px) {
+    
+    .pagination {
+        width: 100%;
+    }
+
+    .pagination button {
+        width: 2em;
+    }
+  }
+

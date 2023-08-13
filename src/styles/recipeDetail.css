@@ -1,0 +1,112 @@
+#recipeDetail-container{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(61, 208,244,0.5) 3.44%, rgba(204, 95, 237,0.5));
+}
+
+#boutonRetour{
+    border-radius: 50%;
+    padding: 8px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#boutonRetour:hover {
+    transform: rotate(-30deg);
+    cursor: pointer;
+}
+
+#recipeDetail-img{
+    /* border: 1px solid green; */
+    height: 13em;
+    width: 13em;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#recipeDetail-name{
+    font-family: 'Beth Ellen';
+    margin: 0.3em 0;
+}
+
+#recipeDetail-ingredients-container{
+    margin: 1em 0;
+}
+
+#recipeDetail-ingredients{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#recipeDetail-ingredients img{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px grey;
+    width: 50px; /* Ajustez la largeur souhaitée */
+    height: 50px; /* Ajustez la hauteur souhaitée */
+    object-fit: contain; /* Pour ajuster les images à la taille spécifiée */
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#recipeDetail-ingredients li {
+    display: flex;
+    padding: 0px 15px 0px 0px;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Beth Ellen';
+
+  }
+
+.recipeDetail-title-container {
+    display: flex;
+    width: 100%;
+    height: 4em;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: white;
+    font-family: 'Beth Ellen';
+    font-size: 0.8em;
+}
+
+.recipeDetail-title-container img{
+    margin: 0px 15px;
+    /* border: 1px solid red; */
+}
+
+
+#recipeDetail-description{
+    color: white;
+    font-family: 'Beth Ellen';
+    font-size: 1em;
+    padding: 15px;
+    white-space: pre-line;
+    
+}
+
+/* Règles de style pour les petits écrans */
+@media only screen and (max-width: 768px) {
+    #boutonRetour{
+        width: 30px;
+        height: 30px;
+        top: 15px;
+        left: 25px;
+    }
+
+    #recipeDetail-img {
+        margin-top: 5em;
+
+    }
+  }

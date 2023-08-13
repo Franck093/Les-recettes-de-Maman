@@ -1,0 +1,65 @@
+.recipe{
+    width: 20em;
+    min-height: 20em;
+    padding-bottom: 10px;
+    margin: 2em; /*modifier margin et height pour le tel*/
+} 
+
+.recipe-container{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /*image et titre de recette */
+    align-items: center;
+    width: 100%;    
+}
+
+.recipe-container:hover{
+    border: 2px solid black;
+}
+
+.image-container{
+    border-radius: 15px;
+    margin-bottom: 1em;
+    position: relative;
+    top: 1.5em;
+    width: 90%;
+    height: 15em;
+}
+
+.recipe-image{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Redimensionnement de l'image pour remplir le conteneur */
+}
+
+.recipe-name{
+    font-size: 1em;
+    font-family: 'Beth Ellen';
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    margin: 1em;
+}
+
+/* Règles de style pour les petits écrans */
+@media only screen and (max-width: 768px) {
+    .recipe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0em 2em;
+        height: 17em;
+    }
+    .recipe-container{
+        width: 15em;
+        height: 15em;
+    }
+
+    .image-container{
+        height: 10em;
+    }
+  }
