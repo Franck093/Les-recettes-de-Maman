@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <main>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/Les-recettes-de-Maman' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path="/recipes/:id" element={<RecipeDetail allRecipesData={allRecipesData} allIngredientsImg={allIngredientsImg}/>} />
         </Routes>
