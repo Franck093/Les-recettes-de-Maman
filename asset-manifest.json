@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Les-recettes-de-Maman/static/css/main.a171983d.css",
-    "main.js": "/Les-recettes-de-Maman/static/js/main.b4badd8c.js",
+    "main.js": "/Les-recettes-de-Maman/static/js/main.18c71fc4.js",
     "static/media/cakeCitron.png": "/Les-recettes-de-Maman/static/media/cakeCitron.d5a2fba568e23e682a21.png",
     "static/media/backgroundTwo.jpeg": "/Les-recettes-de-Maman/static/media/backgroundTwo.1841a5613e09e43b67d4.jpeg",
     "static/media/gateauAnniversaire.jpg": "/Les-recettes-de-Maman/static/media/gateauAnniversaire.f17d285227de405b9889.jpg",
@@ -54,10 +54,10 @@
     "static/media/wisk.svg": "/Les-recettes-de-Maman/static/media/wisk.648f0f949d3868c418cdee9b6c2b9b0c.svg",
     "index.html": "/Les-recettes-de-Maman/index.html",
     "main.a171983d.css.map": "/Les-recettes-de-Maman/static/css/main.a171983d.css.map",
-    "main.b4badd8c.js.map": "/Les-recettes-de-Maman/static/js/main.b4badd8c.js.map"
+    "main.18c71fc4.js.map": "/Les-recettes-de-Maman/static/js/main.18c71fc4.js.map"
   },
   "entrypoints": [
     "static/css/main.a171983d.css",
-    "static/js/main.b4badd8c.js"
+    "static/js/main.18c71fc4.js"
   ]
 }
