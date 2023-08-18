@@ -4,3 +4,10 @@
     align-items: center;
     justify-content: center;
 }
+
+.inactive-link {
+    background: linear-gradient(90deg, #28EED1 3.44%, rgba(29, 173, 231) 105.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
