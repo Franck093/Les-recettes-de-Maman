@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import '../styles/recipeDetail.css';
 import preparationLogo from '../assets/wisk.svg';
 import ingredientLogo from '../assets/ingredients.svg';
@@ -7,6 +8,11 @@ import backArrow from '../assets/backArrow.png';
   export default function RecipeDetail({allRecipesData, allIngredientsImg}) {
     //On utilise useNavigate ici pour permette a l'utilisateur de naviguer au sein de l'application
     const navigate = useNavigate();
+
+    useEffect(() => {
+      // Défilement vers le haut de la page lorsque le composant est monté
+        window.scrollTo(0, 0);
+    }, []);
 
     const goBack = () => {
     // imperatively redirects back
@@ -64,9 +70,9 @@ import backArrow from '../assets/backArrow.png';
           <img src={preparationLogo} alt='iconePreparation' height="30px" width="30px"/>
           <h2>Préparation</h2>
         </div>
-        <text id='recipeDetail-description'>
+        <p id='recipeDetail-description'>
           {recipe.description}
-        </text>
+        </p>
       </div>
     );
   }

@@ -23,9 +23,15 @@ export default function RecipeList({ searchTerm }) {
     const indexOfFirstRecipe = indexOfLastRecipe - recipesPerPage;
     const currentRecipes = filteredRecipes.slice(indexOfFirstRecipe, indexOfLastRecipe);
 
+    // Gérer le défilement vers le haut de la fenêtre lors de la pagination
+    function scrollUp() {
+      window.scrollTo(0, 0);
+    }
+
     // Gérer le changement de page
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
+        scrollUp();
     };
 
     // Calculer le nombre total de pages
