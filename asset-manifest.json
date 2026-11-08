@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Les-recettes-de-Maman/static/css/main.ffa873ad.css",
-    "main.js": "/Les-recettes-de-Maman/static/js/main.4c778488.js",
+    "main.js": "/Les-recettes-de-Maman/static/js/main.0f54ab2d.js",
     "static/media/cakeCitron.png": "/Les-recettes-de-Maman/static/media/cakeCitron.d5a2fba568e23e682a21.png",
     "static/media/backgroundTwo.jpeg": "/Les-recettes-de-Maman/static/media/backgroundTwo.1841a5613e09e43b67d4.jpeg",
     "static/media/gateauAnniversaire.jpg": "/Les-recettes-de-Maman/static/media/gateauAnniversaire.f17d285227de405b9889.jpg",
@@ -10,6 +10,7 @@
     "static/media/sucreGlace.jpeg": "/Les-recettes-de-Maman/static/media/sucreGlace.6ba21969b964db617cea.jpeg",
     "static/media/bananaBread.jpeg": "/Les-recettes-de-Maman/static/media/bananaBread.43294b2e5903b6431c67.jpeg",
     "static/media/coulantChocolat.jpeg": "/Les-recettes-de-Maman/static/media/coulantChocolat.2dc1132ff8a4cd4b27e1.jpeg",
+    "static/media/sucreBrun.png": "/Les-recettes-de-Maman/static/media/sucreBrun.51d3c2fe4d2f772c4e4b.png",
     "static/media/cheeseCake.jpeg": "/Les-recettes-de-Maman/static/media/cheeseCake.83ed784ceab77539ac19.jpeg",
     "static/media/pateFeuilletee.jpeg": "/Les-recettes-de-Maman/static/media/pateFeuilletee.5fe30a25a59acceceeae.jpeg",
     "static/media/millefeuille.jpeg": "/Les-recettes-de-Maman/static/media/millefeuille.693d2cad256d69691542.jpeg",
@@ -24,6 +25,7 @@
     "static/media/cakePapy.jpeg": "/Les-recettes-de-Maman/static/media/cakePapy.cabe04590707608b65d5.jpeg",
     "static/media/pruneaux.jpeg": "/Les-recettes-de-Maman/static/media/pruneaux.b6d3c5fd56ac3d6525db.jpeg",
     "static/media/sablesNoel.jpeg": "/Les-recettes-de-Maman/static/media/sablesNoel.37d15076604a6ecd9eab.jpeg",
+    "static/media/cookiesNYstyle.jpg": "/Les-recettes-de-Maman/static/media/cookiesNYstyle.265bafe89d1559d8de7b.jpg",
     "static/media/cinnamonRoll.jpeg": "/Les-recettes-de-Maman/static/media/cinnamonRoll.5844c9b206883eb51af3.jpeg",
     "static/media/cacao.jpeg": "/Les-recettes-de-Maman/static/media/cacao.1aee889ef72fe4d52144.jpeg",
     "static/media/manjarBranco.jpeg": "/Les-recettes-de-Maman/static/media/manjarBranco.5b69ba58fc4d43d20077.jpeg",
@@ -39,6 +41,7 @@
     "static/media/gelatine.jpeg": "/Les-recettes-de-Maman/static/media/gelatine.ed7b66ede874188e3500.jpeg",
     "static/media/mascarpone.jpeg": "/Les-recettes-de-Maman/static/media/mascarpone.76a607920c2b20044844.jpeg",
     "static/media/noix.jpeg": "/Les-recettes-de-Maman/static/media/noix.6a181e62c9b8f2b98056.jpeg",
+    "static/media/pépitesChocolat.jpg": "/Les-recettes-de-Maman/static/media/pépitesChocolat.a12f56ebaecab2f753a4.jpg",
     "static/media/vanille.jpeg": "/Les-recettes-de-Maman/static/media/vanille.e68a17a151045a9c6c78.jpeg",
     "static/media/caramel.jpeg": "/Les-recettes-de-Maman/static/media/caramel.88734cb1a2e17812f9f4.jpeg",
     "static/media/moelleuxChocolat.jpeg": "/Les-recettes-de-Maman/static/media/moelleuxChocolat.0ea7e6791088a66f4e7a.jpeg",
@@ -54,10 +57,10 @@
     "static/media/wisk.svg": "/Les-recettes-de-Maman/static/media/wisk.648f0f949d3868c418cdee9b6c2b9b0c.svg",
     "index.html": "/Les-recettes-de-Maman/index.html",
     "main.ffa873ad.css.map": "/Les-recettes-de-Maman/static/css/main.ffa873ad.css.map",
-    "main.4c778488.js.map": "/Les-recettes-de-Maman/static/js/main.4c778488.js.map"
+    "main.0f54ab2d.js.map": "/Les-recettes-de-Maman/static/js/main.0f54ab2d.js.map"
   },
   "entrypoints": [
     "static/css/main.ffa873ad.css",
-    "static/js/main.4c778488.js"
+    "static/js/main.0f54ab2d.js"
   ]
 }
