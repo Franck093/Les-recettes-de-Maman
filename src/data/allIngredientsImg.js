@@ -1,9 +1,11 @@
 const ingredientsImg = [
     {ingredient: 'sucre', img: require('../assets/ingredientsImg/sucre.jpeg')},
+    {ingredient: 'sucreBrun', img: require('../assets/ingredientsImg/sucreBrun.png')},
     {ingredient: 'lait', img: require('../assets/ingredientsImg/lait.jpeg')},
     {ingredient: 'oeufs', img: require('../assets/ingredientsImg/oeuf.jpeg')},
     {ingredient: 'beurre', img: require('../assets/ingredientsImg/beurre.jpeg')},
     {ingredient: 'chocolat', img: require('../assets/ingredientsImg/chocolat.jpeg')},
+    {ingredient: 'pépitesChocolat', img: require('../assets/ingredientsImg/pépitesChocolat.jpg')},
     {ingredient: 'farine', img: require('../assets/ingredientsImg/farine.jpeg')},
     {ingredient: 'sel', img: require('../assets/ingredientsImg/sel.jpeg')},
     {ingredient: 'citron', img: require('../assets/ingredientsImg/citron.jpeg')},
